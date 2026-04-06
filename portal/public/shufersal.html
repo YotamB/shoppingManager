@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shufersal Dashboard</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-brand">🏠 Portal</span>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/shufersal" class="active">🛒 Shufersal</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>🛒 Shufersal Dashboard</h1>
+      <p>Order history, staples, and predicted next cart</p>
+    </div>
+
+    <!-- Overdue Banner -->
+    <div id="overdue-banner" class="overdue-banner" style="display:none">
+      <span class="icon">⚠️</span>
+      <span id="overdue-text">הזמנה איחרה — כדאי לבצע הזמנה חדשה</span>
+    </div>
+
+    <!-- ── Summary Bar ─────────────────────────────────────────────────── -->
+    <div class="section">
+      <div class="stat-grid" id="stat-grid">
+        <div class="loading">טוען נתונים…</div>
+      </div>
+    </div>
+
+    <!-- ── Spending Over Time ──────────────────────────────────────────── -->
+    <div class="section card">
+      <div class="section-title">📈 הוצאות לפי חודש</div>
+      <div class="chart-wrap">
+        <div class="bar-chart" id="bar-chart">
+          <div class="loading">טוען גרף…</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── Predicted Next Order ───────────────────────────────────────── -->
+    <div class="section card">
+      <div class="section-title">
+        🔮 הצעת הזמנה הבאה
+        <span class="badge" id="predicted-count">—</span>
+      </div>
+
+      <!-- Build Cart Button -->
+      <div style="text-align:center;">
+        <button class="btn-cart" id="btn-build-cart">
+          🛒 Build Cart
+        </button>
+      </div>
+
+      <div id="cart-result"></div>
+
+      <div class="table-wrap" style="margin-top:1rem;">
+        <table id="predicted-table">
+          <thead>
+            <tr>
+              <th class="rtl">מוצר</th>
+              <th>ביטחון</th>
+              <th>כמות</th>
+              <th>מחיר יח'</th>
+              <th>ימים מאז קנייה</th>
+            </tr>
+          </thead>
+          <tbody id="predicted-body">
+            <tr><td colspan="5" class="loading">טוען…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ── Staples List ────────────────────────────────────────────────── -->
+    <div class="section card">
+      <div class="section-title">
+        📦 מוצרי ליבה
+        <span class="badge" id="staples-count">—</span>
+      </div>
+      <div class="table-wrap">
+        <table id="staples-table">
+          <thead>
+            <tr>
+              <th class="rtl">מוצר</th>
+              <th>תדירות</th>
+              <th>כמות ממוצעת</th>
+              <th>מחיר ממוצע</th>
+              <th>ימים בין קניות</th>
+            </tr>
+          </thead>
+          <tbody id="staples-body">
+            <tr><td colspan="5" class="loading">טוען…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ── Order History ────────────────────────────────────────────────── -->
+    <div class="section card">
+      <div class="section-title">🗂 היסטוריית הזמנות</div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>מספר הזמנה</th>
+              <th>תאריך</th>
+              <th>סכום</th>
+              <th>פריטים</th>
+            </tr>
+          </thead>
+          <tbody id="orders-body">
+            <tr><td colspan="4" class="loading">טוען…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!-- /container -->
+
+  <script src="/js/shufersal.js"></script>
+</body>
+</html>

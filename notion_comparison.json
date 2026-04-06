@@ -1,0 +1,39 @@
+{
+  "parent": {"page_id": "3375d4e4-4f7f-8058-8626-c30c1e8421f4"},
+  "icon": {"emoji": "🤖"},
+  "properties": {
+    "title": {
+      "title": [{"text": {"content": "🤖 OpenClaw vs Claude Cowork – השוואה (אפריל 2026)"}}]
+    }
+  },
+  "children": [
+    {"object":"block","type":"callout","callout":{"rich_text":[{"text":{"content":"שאלה: אם מריץ מק מיני 24/7 – מה כדאי? | עודכן: 4 אפריל 2026"}}],"icon":{"emoji":"❓"},"color":"blue_background"}},
+    {"object":"block","type":"heading_1","heading_1":{"rich_text":[{"text":{"content":"📊 סיכום מהיר"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw = agent אישי, תמיד דולק, מחובר לוואטסאפ/דיסקורד/טלגרם, זיכרון מתמשך, פועל אוטונומית\nClaude Cowork = כלי עבודה על שולחן העבודה, שולט במחשב, מתאים לעבודה פרונטלית בלבד"}}]}},
+    {"object":"block","type":"heading_1","heading_1":{"rich_text":[{"text":{"content":"🔍 פירוט לפי קטגוריות"}}]}},
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"text":{"content":"1. מהו כל מוצר?"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw","annotations":{"bold":true}},{"text":{"content":"\nDaemon שרץ ברקע, מחובר ל-WhatsApp/Telegram/Discord/Slack. קוד פתוח, self-hosted, פועל 24/7, זיכרון מתמשך, heartbeats יזומים.\n\n"}},{"text":{"content":"Claude Cowork","annotations":{"bold":true}},{"text":{"content":"\nאפליקציית desktop של Anthropic (ינואר 2026). שולט ב-Mac/Windows – עכבר, מקלדת, דפדפן, Gmail. מתאים למי שיושב ליד המחשב."}}]}},
+    {"object":"block","type":"divider","divider":{}},
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"text":{"content":"2. מודל שימוש"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw","annotations":{"bold":true}},{"text":{"content":"\n• שולחים הודעה מכל מכשיר → Agent עובד ברקע → מדווח בסיום\n• פועל בלי שאתה ליד המחשב\n• Heartbeats: בודק דברים מיוזמתו ומתריע\n• מתאים לאוטומציות, ניטור, tasks ארוכי טווח\n\n"}},{"text":{"content":"Claude Cowork","annotations":{"bold":true}},{"text":{"content":"\n• נותנים פקודה בממשק כשיושבים ליד המחשב\n• Claude שולט בעכבר/מקלדת לביצוע\n• Task queuing – אפשר לתור משימות\n• לא פועל ברקע אוטומטית\n• לא שולח עדכונים לנייד"}}]}},
+    {"object":"block","type":"divider","divider":{}},
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"text":{"content":"3. עלות"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw","annotations":{"bold":true}},{"text":{"content":"\n• תוכנה: חינם (open source)\n• שימוש קל: ~$20-50/חודש (API בלבד)\n• שימוש כבד: $100-400/חודש\n• עלות לא ידועה מראש\n\n"}},{"text":{"content":"Claude Cowork","annotations":{"bold":true}},{"text":{"content":"\n• Pro: $20/חודש (מגבלות שימוש)\n• Max: $100-200/חודש (computer use מלא)\n• עלות קבועה וצפויה"}}]}},
+    {"object":"block","type":"divider","divider":{}},
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"text":{"content":"4. אבטחה ופרטיות"}}]}},
+    {"object":"block","type":"callout","callout":{"rich_text":[{"text":{"content":"⚠️ Cowork: חולשת prompt injection שנמצאה לפני launch, אפשרה גניבת קבצים דרך curl. דווחה 3 חודשים מראש – שוחררה בלי תיקון. אין audit logs. לא מתאים לנתונים רגישים."}}],"icon":{"emoji":"🔴"},"color":"red_background"}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw","annotations":{"bold":true}},{"text":{"content":"\n• הנתונים על המחשב שלך – self-hosted\n• קוד פתוח, ניתן לביקורת\n• הכי פרטי מבין השניים\n\n"}},{"text":{"content":"Claude Cowork","annotations":{"bold":true}},{"text":{"content":"\n• שרתי Anthropic (ענן)\n• חולשות אבטחה ידועות (research preview)\n• אין compliance API"}}]}},
+    {"object":"block","type":"divider","divider":{}},
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"text":{"content":"5. זיכרון ורצף"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw","annotations":{"bold":true}},{"text":{"content":"\n• זיכרון מלא: MEMORY.md + יומנים יומיים\n• זוכר החלטות, פרויקטים, העדפות לאורך חודשים\n\n"}},{"text":{"content":"Claude Cowork","annotations":{"bold":true}},{"text":{"content":"\n• אין זיכרון מתמשך – כל שיחה מאפס\n• אין learning מאינטראקציות קודמות"}}]}},
+    {"object":"block","type":"divider","divider":{}},
+    {"object":"block","type":"heading_2","heading_2":{"rich_text":[{"text":{"content":"6. אינטגרציות"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"OpenClaw","annotations":{"bold":true}},{"text":{"content":"\n• 38+ integrations: WhatsApp, Telegram, Discord, Slack, iMessage\n• Notion, Google Calendar, GitHub, Jira, Apple Notes/Reminders\n• Skills ecosystem (ClawHub)\n\n"}},{"text":{"content":"Claude Cowork","annotations":{"bold":true}},{"text":{"content":"\n• Plugin ecosystem (productivity, sales, marketing)\n• Computer use: שליטה בכל GUI\n• Dispatch: גישה מרחוק מהנייד"}}]}},
+    {"object":"block","type":"divider","divider":{}},
+    {"object":"block","type":"heading_1","heading_1":{"rich_text":[{"text":{"content":"🎯 המלצה: מק מיני שמריץ 24/7"}}]}},
+    {"object":"block","type":"callout","callout":{"rich_text":[{"text":{"content":"✅ תשאר עם OpenClaw.\n\nCowork לא מתאים לריצה 24/7 – הוא דורש שתהיה ליד המחשב. OpenClaw הוא בדיוק ההפך: דולק, ממתין, פועל, מדווח גם בלי שתהיה שם.\n\nOpenClaw מנצח בתרחישים כמו:\n• \"תזמין שופרסל בלילה\"\n• \"תתריע כשמגיע אימייל חשוב\"\n• \"תבדוק כל שעתיים ותשלח סיכום\"\n• \"תריץ ניתוח ותשלח תוצאות לדיסקורד\"\n\nCowork היה עדיף אם:\n• רוצים שליטה ב-GUI של מחשב (לפתוח תוכנות, לגלוש)\n• משימות חד-פעמיות כשיושבים ליד המחשב\n• לא רוצים להתעסק עם הגדרות"}}],"icon":{"emoji":"🏆"},"color":"green_background"}},
+    {"object":"block","type":"heading_1","heading_1":{"rich_text":[{"text":{"content":"📋 טבלת השוואה"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"קטגוריה | OpenClaw | Claude Cowork\nמודל | Always-on daemon | Desktop tool\nגישה | WhatsApp/Discord/כל מכשיר | רק מהמחשב\nאוטונומיה | ✅ גבוהה | ❌ נמוכה\nזיכרון מתמשך | ✅ כן | ❌ לא\nשליטה ב-GUI | ❌ לא | ✅ כן\nעלות | $20-400/חודש (API) | $20-200/חודש (קבוע)\nהתקנה | טכנית | קלה מאוד\nפרטיות | ✅ Self-hosted | ☁️ ענן\nOpen source | ✅ כן | ❌ לא\nAON (Always on) | ✅ כן | ❌ לא"}}]}},
+    {"object":"block","type":"paragraph","paragraph":{"rich_text":[{"text":{"content":"מקורות: the-decoder.com, wired.com, venturebeat.com, adapt.com, reddit.com/r/ClaudeAI, shawnkanungo.com"}}]}}
+  ]
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portal</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <style>
+    .hero {
+      padding: 3rem 0 1.5rem;
+      text-align: center;
+    }
+    .hero h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .hero p  { color: var(--muted); font-size: 1.05rem; }
+    .hero .date { color: var(--accent); font-size: 0.9rem; margin-top: 0.5rem; }
+    .section-label {
+      font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em;
+      color: var(--muted); margin-bottom: 0.75rem; font-weight: 600;
+    }
+    .divider {
+      border: none; border-top: 1px solid var(--border);
+      margin: 0.5rem 0 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="nav-brand">🏠 Portal</span>
+      <div class="nav-links">
+        <a href="/" class="active">Home</a>
+        <a href="/shufersal">🛒 Shufersal</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="hero">
+      <h1>👋 Hey Yotam!</h1>
+      <p>Your personal life dashboard.</p>
+      <div class="date" id="hero-date"></div>
+    </div>
+
+    <p class="section-label">Apps</p>
+    <hr class="divider" />
+
+    <div class="app-grid">
+      <!-- Shufersal -->
+      <a href="/shufersal" class="app-card">
+        <div class="app-icon">🛒</div>
+        <div class="app-name">Shufersal</div>
+        <div class="app-desc">Order history, staples analysis, and predicted next cart.</div>
+        <span class="app-tag live">● Live</span>
+      </a>
+
+      <!-- Placeholder: Finance -->
+      <div class="app-card placeholder">
+        <div class="app-icon">💰</div>
+        <div class="app-name">Finance</div>
+        <div class="app-desc">Spending trends, budgets, and insights.</div>
+        <span class="app-tag">Coming Soon</span>
+      </div>
+
+      <!-- Placeholder: Health -->
+      <div class="app-card placeholder">
+        <div class="app-icon">🏃</div>
+        <div class="app-name">Health</div>
+        <div class="app-desc">Activity, sleep, and wellness tracking.</div>
+        <span class="app-tag">Coming Soon</span>
+      </div>
+
+      <!-- Placeholder: Tasks -->
+      <div class="app-card placeholder">
+        <div class="app-icon">✅</div>
+        <div class="app-name">Tasks</div>
+        <div class="app-desc">Reminders and to-dos from Notion and beyond.</div>
+        <span class="app-tag">Coming Soon</span>
+      </div>
+
+      <!-- Placeholder: Calendar -->
+      <div class="app-card placeholder">
+        <div class="app-icon">📅</div>
+        <div class="app-name">Calendar</div>
+        <div class="app-desc">Upcoming events and scheduling overview.</div>
+        <span class="app-tag">Coming Soon</span>
+      </div>
+
+      <!-- Placeholder: Media -->
+      <div class="app-card placeholder">
+        <div class="app-icon">🎬</div>
+        <div class="app-name">Media</div>
+        <div class="app-desc">Watchlist, reading list, and recommendations.</div>
+        <span class="app-tag">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Show friendly date
+    const dateEl = document.getElementById('hero-date');
+    if (dateEl) {
+      const now = new Date();
+      dateEl.textContent = now.toLocaleDateString('he-IL', {
+        weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+      });
+    }
+  </script>
+</body>
+</html>

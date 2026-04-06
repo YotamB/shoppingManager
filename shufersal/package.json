@@ -1,0 +1,16 @@
+{
+  "name": "shufersal-auto-order",
+  "version": "1.0.0",
+  "description": "Automated Shufersal shopping — scrape, analyze, predict, order",
+  "scripts": {
+    "scrape": "node scrape.js",
+    "analyze": "node analyze.js",
+    "refresh": "node scrape.js && node analyze.js",
+    "order": "node order.js",
+    "dry-run": "node order.js --dry-run",
+    "ui": "node ui.js"
+  },
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}

@@ -1,0 +1,1539 @@
+{
+  "scannedAt": "2026-04-06T10:44:16.695Z",
+  "totalItems": 219,
+  "items": [
+    {
+      "name": "מלפפון חממה",
+      "category": "ירקות",
+      "price": "9.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3995660-%D7%9E%D7%9C%D7%A4%D7%A4%D7%95%D7%9F-%D7%97%D7%9E%D7%9E%D7%94"
+    },
+    {
+      "name": "אפונה סינית / שלג מארז",
+      "category": "ירקות",
+      "price": "21.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780813-%D7%90%D7%A4%D7%95%D7%A0%D7%94-%D7%A1%D7%99%D7%A0%D7%99%D7%AA-%D7%A9%D7%9C%D7%92-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "שרי תמר אשכולות",
+      "category": "ירקות",
+      "price": "29.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6737455-%D7%A9%D7%A8%D7%99-%D7%AA%D7%9E%D7%A8-%D7%90%D7%A9%D7%9B%D7%95%D7%9C%D7%95%D7%AA"
+    },
+    {
+      "name": "פטריות ביבי מלך היער",
+      "category": "ירקות",
+      "price": "18.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6513457-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%91%D7%99%D7%91%D7%99-%D7%9E%D7%9C%D7%9A-%D7%94%D7%99%D7%A2%D7%A8"
+    },
+    {
+      "name": "בצלי שאלוט מארז",
+      "category": "ירקות",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2573364--%D7%91%D7%A6%D7%9C%D7%99-%D7%A9%D7%90%D7%9C%D7%95%D7%98-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "אבוקדו ריד אורגני מבצע",
+      "category": "ירקות",
+      "price": "13.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/775988-%D7%90%D7%91%D7%95%D7%A7%D7%93%D7%95-%D7%A8%D7%99%D7%93-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99-%D7%9E%D7%91%D7%A6%D7%A2-"
+    },
+    {
+      "name": "תרד תורכי",
+      "category": "ירקות",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8691253-%D7%AA%D7%A8%D7%93-%D7%AA%D7%95%D7%A8%D7%9B%D7%99"
+    },
+    {
+      "name": "דואט שימגי - חום לבן",
+      "category": "ירקות",
+      "price": "19.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/5060421-%D7%93%D7%95%D7%90%D7%98-%D7%A9%D7%99%D7%9E%D7%92%D7%99-%D7%97%D7%95%D7%9D-%D7%9C%D7%91%D7%9F"
+    },
+    {
+      "name": "תרד ניו זינלנדי אורגני",
+      "category": "ירקות",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8691276-%D7%AA%D7%A8%D7%93-%D7%A0%D7%99%D7%95-%D7%96%D7%99%D7%A0%D7%9C%D7%A0%D7%93%D7%99-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99"
+    },
+    {
+      "name": "בטטה מובחרת",
+      "category": "ירקות",
+      "price": "13.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780370-%D7%91%D7%98%D7%98%D7%94-%D7%9E%D7%95%D7%91%D7%97%D7%A8%D7%AA-"
+    },
+    {
+      "name": "פטריות שמפיניון מארז",
+      "category": "ירקות",
+      "price": "11.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/776024-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A9%D7%9E%D7%A4%D7%99%D7%A0%D7%99%D7%95%D7%9F-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פטריות פורטבלה מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780890-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A4%D7%95%D7%A8%D7%98%D7%91%D7%9C%D7%94-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "בצל",
+      "category": "ירקות",
+      "price": "7.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780410-%D7%91%D7%A6%D7%9C-"
+    },
+    {
+      "name": "כרוב ניצנים י'ח",
+      "category": "ירקות",
+      "price": "25.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779644-%D7%9B%D7%A8%D7%95%D7%91-%D7%A0%D7%99%D7%A6%D7%A0%D7%99%D7%9D-%D7%99-%D7%97"
+    },
+    {
+      "name": "שעועית ירוקה",
+      "category": "ירקות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2559614-%D7%A9%D7%A2%D7%95%D7%A2%D7%99%D7%AA-%D7%99%D7%A8%D7%95%D7%A7%D7%94-"
+    },
+    {
+      "name": "עלי קייל אורגני",
+      "category": "ירקות",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/823681-%D7%A2%D7%9C%D7%99-%D7%A7%D7%99%D7%99%D7%9C-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99"
+    },
+    {
+      "name": "ברוקולי יח",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780931-%D7%91%D7%A8%D7%95%D7%A7%D7%95%D7%9C%D7%99-%D7%99%D7%97"
+    },
+    {
+      "name": "חסה עגולה מבצע",
+      "category": "ירקות",
+      "price": "7.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780941-%D7%97%D7%A1%D7%94-%D7%A2%D7%92%D7%95%D7%9C%D7%94-%D7%9E%D7%91%D7%A6%D7%A2"
+    },
+    {
+      "name": "שום ירוק ק\"ג",
+      "category": "ירקות",
+      "price": "15.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800914-%D7%A9%D7%95%D7%9D-%D7%99%D7%A8%D7%95%D7%A7-%D7%A7-%D7%92"
+    },
+    {
+      "name": "עגבניה אשכולות",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/770707-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%94-%D7%90%D7%A9%D7%9B%D7%95%D7%9C%D7%95%D7%AA-"
+    },
+    {
+      "name": "צנון ק'ג",
+      "category": "ירקות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780951-%D7%A6%D7%A0%D7%95%D7%9F-%D7%A7-%D7%92"
+    },
+    {
+      "name": "לפת ק'ג",
+      "category": "ירקות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780957-%D7%9C%D7%A4%D7%AA-%D7%A7-%D7%92"
+    },
+    {
+      "name": "תירס לבן מתוק מארז",
+      "category": "ירקות",
+      "price": "26.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2360994-%D7%AA%D7%99%D7%A8%D7%A1-%D7%9C%D7%91%D7%9F-%D7%9E%D7%AA%D7%95%D7%A7-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "בצלי שאלוט מקולף מארז 350 גרם",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780976-%D7%91%D7%A6%D7%9C%D7%99-%D7%A9%D7%90%D7%9C%D7%95%D7%98-%D7%9E%D7%A7%D7%95%D7%9C%D7%A3-%D7%9E%D7%90%D7%A8%D7%96-350-%D7%92%D7%A8%D7%9D"
+    },
+    {
+      "name": "בצל אדום",
+      "category": "ירקות",
+      "price": "8.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780502-%D7%91%D7%A6%D7%9C-%D7%90%D7%93%D7%95%D7%9D-"
+    },
+    {
+      "name": "גזר צבעוני מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/805592-%D7%92%D7%96%D7%A8-%D7%A6%D7%91%D7%A2%D7%95%D7%A0%D7%99-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "עגבניה תמר",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/805628-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%94-%D7%AA%D7%9E%D7%A8-"
+    },
+    {
+      "name": "עגבניות שרי תמר מארז",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/775944-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%95%D7%AA-%D7%A9%D7%A8%D7%99-%D7%AA%D7%9E%D7%A8-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פטריות שימאגי חומות מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053391-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A9%D7%99%D7%9E%D7%90%D7%92%D7%99-%D7%97%D7%95%D7%9E%D7%95%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פטריות שינוקי מארז",
+      "category": "ירקות",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053393-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A9%D7%99%D7%A0%D7%95%D7%A7%D7%99-%D7%9E%D7%90%D7%A8%D7%96-"
+    },
+    {
+      "name": "פטריות שימאגי לבנות מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780882-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A9%D7%99%D7%9E%D7%90%D7%92%D7%99-%D7%9C%D7%91%D7%A0%D7%95%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "זוקיני ירוק",
+      "category": "ירקות",
+      "price": "12.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780888-%D7%96%D7%95%D7%A7%D7%99%D7%A0%D7%99-%D7%99%D7%A8%D7%95%D7%A7-"
+    },
+    {
+      "name": "תפוח אדמה זעיר מבצע",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3667817-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%96%D7%A2%D7%99%D7%A8-%D7%9E%D7%91%D7%A6%D7%A2-"
+    },
+    {
+      "name": "פלפל כתום",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780920-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%9B%D7%AA%D7%95%D7%9D-"
+    },
+    {
+      "name": "פרחי כרובית מארז",
+      "category": "ירקות",
+      "price": "19.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2926714-%D7%A4%D7%A8%D7%97%D7%99-%D7%9B%D7%A8%D7%95%D7%91%D7%99%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "עגבניות שרי צהוב מארז",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780928-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%95%D7%AA-%D7%A9%D7%A8%D7%99-%D7%A6%D7%94%D7%95%D7%91-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "תפוח אדמה אדום",
+      "category": "ירקות",
+      "price": "6.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779914-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%90%D7%93%D7%95%D7%9D"
+    },
+    {
+      "name": "פלפל נהריה",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780943-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%A0%D7%94%D7%A8%D7%99%D7%94-"
+    },
+    {
+      "name": "עגבניות שרי מנומר מארז",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800918-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%95%D7%AA-%D7%A9%D7%A8%D7%99-%D7%9E%D7%A0%D7%95%D7%9E%D7%A8-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "אספרגוס",
+      "category": "ירקות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780952-%D7%90%D7%A1%D7%A4%D7%A8%D7%92%D7%95%D7%A1"
+    },
+    {
+      "name": "פטריות מלך היער מארז",
+      "category": "ירקות",
+      "price": "18.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780971-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%9E%D7%9C%D7%9A-%D7%94%D7%99%D7%A2%D7%A8-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פלפל צהוב",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/772273-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%A6%D7%94%D7%95%D7%91-"
+    },
+    {
+      "name": "עגבניה מגי ק\"ג",
+      "category": "ירקות",
+      "price": "23.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779956-%D7%A2%D7%92%D7%91%D7%A0%D7%99%D7%94-%D7%9E%D7%92%D7%99-%D7%A7-%D7%92"
+    },
+    {
+      "name": "פלפל אדום",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/770744-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%90%D7%93%D7%95%D7%9D-"
+    },
+    {
+      "name": "בטטה לבנה",
+      "category": "ירקות",
+      "price": "15.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/5419450-%D7%91%D7%98%D7%98%D7%94-%D7%9C%D7%91%D7%A0%D7%94"
+    },
+    {
+      "name": "ארטישוק ירוק ק'ג",
+      "category": "ירקות",
+      "price": "19.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780740-%D7%90%D7%A8%D7%98%D7%99%D7%A9%D7%95%D7%A7-%D7%99%D7%A8%D7%95%D7%A7-%D7%A7-%D7%92"
+    },
+    {
+      "name": "בטטה סגולה",
+      "category": "ירקות",
+      "price": "15.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2690763-%D7%91%D7%98%D7%98%D7%94-%D7%A1%D7%92%D7%95%D7%9C%D7%94"
+    },
+    {
+      "name": "מארז עלי מיקרו 7 תאים",
+      "category": "ירקות",
+      "price": "25.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1915622-%D7%9E%D7%90%D7%A8%D7%96-%D7%A2%D7%9C%D7%99-%D7%9E%D7%99%D7%A7%D7%A8%D7%95-7-%D7%AA%D7%90%D7%99%D7%9D-"
+    },
+    {
+      "name": "דלעת ספגטי יח'",
+      "category": "ירקות",
+      "price": "19.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/805607-%D7%93%D7%9C%D7%A2%D7%AA-%D7%A1%D7%A4%D7%92%D7%98%D7%99-%D7%99%D7%97-"
+    },
+    {
+      "name": "אבוקדו אס",
+      "category": "ירקות",
+      "price": "19.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779751-%D7%90%D7%91%D7%95%D7%A7%D7%93%D7%95-%D7%90%D7%A1-"
+    },
+    {
+      "name": "פלפל שושקה",
+      "category": "ירקות",
+      "price": "19.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/870639-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%A9%D7%95%D7%A9%D7%A7%D7%94-"
+    },
+    {
+      "name": "נתח חקלאים",
+      "category": "ירקות",
+      "price": "19.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3463414-%D7%A0%D7%AA%D7%97-%D7%97%D7%A7%D7%9C%D7%90%D7%99%D7%9D-"
+    },
+    {
+      "name": "שק תפוח אדמה לבן 3 ק\"ג",
+      "category": "ירקות",
+      "price": "25.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3457546-%D7%A9%D7%A7-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%9C%D7%91%D7%9F-3-%D7%A7-%D7%92"
+    },
+    {
+      "name": "דלעת ערמונים",
+      "category": "ירקות",
+      "price": "22.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780555-%D7%93%D7%9C%D7%A2%D7%AA-%D7%A2%D7%A8%D7%9E%D7%95%D7%A0%D7%99%D7%9D-"
+    },
+    {
+      "name": "תפוח אדמה לבן",
+      "category": "ירקות",
+      "price": "6.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780819-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%9C%D7%91%D7%9F-"
+    },
+    {
+      "name": "פול ירוק ק'ג",
+      "category": "ירקות",
+      "price": "16.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780825-%D7%A4%D7%95%D7%9C-%D7%99%D7%A8%D7%95%D7%A7-%D7%A7-%D7%92"
+    },
+    {
+      "name": "מארז ירקות לבית ספר",
+      "category": "ירקות",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/982568-%D7%9E%D7%90%D7%A8%D7%96-%D7%99%D7%A8%D7%A7%D7%95%D7%AA-%D7%9C%D7%91%D7%99%D7%AA-%D7%A1%D7%A4%D7%A8"
+    },
+    {
+      "name": "לימון צהוב",
+      "category": "ירקות",
+      "price": "12.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/776005-%D7%9C%D7%99%D7%9E%D7%95%D7%9F-%D7%A6%D7%94%D7%95%D7%91-"
+    },
+    {
+      "name": "תפוח אדמה אדום גורמה שק 3 ק\"ג",
+      "category": "ירקות",
+      "price": "29.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1405515-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%90%D7%93%D7%95%D7%9D-%D7%92%D7%95%D7%A8%D7%9E%D7%94-%D7%A9%D7%A7-3-%D7%A7-%D7%92"
+    },
+    {
+      "name": "קולורבי",
+      "category": "ירקות",
+      "price": "11.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780875-%D7%A7%D7%95%D7%9C%D7%95%D7%A8%D7%91%D7%99-"
+    },
+    {
+      "name": "כרוב לבן יח'",
+      "category": "ירקות",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780916-%D7%9B%D7%A8%D7%95%D7%91-%D7%9C%D7%91%D7%9F-%D7%99%D7%97-"
+    },
+    {
+      "name": "שק תפו\"א זעיר מארז",
+      "category": "ירקות",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/823679-%D7%A9%D7%A7-%D7%AA%D7%A4%D7%95-%D7%90-%D7%96%D7%A2%D7%99%D7%A8-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "לבבות חסה שטוף מארז",
+      "category": "ירקות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/823682-%D7%9C%D7%91%D7%91%D7%95%D7%AA-%D7%97%D7%A1%D7%94-%D7%A9%D7%98%D7%95%D7%A3-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "תפוח אדמה לבן גורמה שק 3 ק\"ג",
+      "category": "ירקות",
+      "price": "29.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780426-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%9C%D7%91%D7%9F-%D7%92%D7%95%D7%A8%D7%9E%D7%94-%D7%A9%D7%A7-3-%D7%A7-%D7%92"
+    },
+    {
+      "name": "עדשים שחורות מונבטות יח'",
+      "category": "ירקות",
+      "price": "7.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3250832-%D7%A2%D7%93%D7%A9%D7%99%D7%9D-%D7%A9%D7%97%D7%95%D7%A8%D7%95%D7%AA-%D7%9E%D7%95%D7%A0%D7%91%D7%98%D7%95%D7%AA-%D7%99%D7%97-"
+    },
+    {
+      "name": "סלק בוואקום מארז",
+      "category": "ירקות",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800919-%D7%A1%D7%9C%D7%A7-%D7%91%D7%95%D7%95%D7%90%D7%A7%D7%95%D7%9D-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "סימפונית שרי מארז",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779929-%D7%A1%D7%99%D7%9E%D7%A4%D7%95%D7%A0%D7%99%D7%AA-%D7%A9%D7%A8%D7%99-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "מארז גזר מארז",
+      "category": "ירקות",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800924-%D7%9E%D7%90%D7%A8%D7%96-%D7%92%D7%96%D7%A8-%D7%9E%D7%90%D7%A8%D7%96-"
+    },
+    {
+      "name": "שום קלוף קילו מארז",
+      "category": "ירקות",
+      "price": "49.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800929-%D7%A9%D7%95%D7%9D-%D7%A7%D7%9C%D7%95%D7%A3-%D7%A7%D7%99%D7%9C%D7%95-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "צמת שום",
+      "category": "ירקות",
+      "price": "49.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3735217-%D7%A6%D7%9E%D7%AA-%D7%A9%D7%95%D7%9D-"
+    },
+    {
+      "name": "כרובית יח'",
+      "category": "ירקות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780731-%D7%9B%D7%A8%D7%95%D7%91%D7%99%D7%AA-%D7%99%D7%97-"
+    },
+    {
+      "name": "אפונה מוכנה למרק מארז",
+      "category": "ירקות",
+      "price": "11.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2563013-%D7%90%D7%A4%D7%95%D7%A0%D7%94-%D7%9E%D7%95%D7%9B%D7%A0%D7%94-%D7%9C%D7%9E%D7%A8%D7%A7-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פלפלים לבישול והקפצה מבחר צבעים",
+      "category": "ירקות",
+      "price": "6.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1196999--%D7%A4%D7%9C%D7%A4%D7%9C%D7%99%D7%9D-%D7%9C%D7%91%D7%99%D7%A9%D7%95%D7%9C-%D7%95%D7%94%D7%A7%D7%A4%D7%A6%D7%94-%D7%9E%D7%91%D7%97%D7%A8-%D7%A6%D7%91%D7%A2%D7%99%D7%9D-"
+    },
+    {
+      "name": "תפוח אדמה באטר",
+      "category": "ירקות",
+      "price": "8.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/4073170-%D7%AA%D7%A4%D7%95%D7%97-%D7%90%D7%93%D7%9E%D7%94-%D7%91%D7%90%D7%98%D7%A8"
+    },
+    {
+      "name": "כרוב אדום יח'",
+      "category": "ירקות",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/775911-%D7%9B%D7%A8%D7%95%D7%91-%D7%90%D7%93%D7%95%D7%9D-%D7%99%D7%97-"
+    },
+    {
+      "name": "בייבי בטטה מארז",
+      "category": "ירקות",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/775926-%D7%91%D7%99%D7%99%D7%91%D7%99-%D7%91%D7%98%D7%98%D7%94-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "לקט פטריות מיובשות למרק מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053697-%D7%9C%D7%A7%D7%98-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%9E%D7%99%D7%95%D7%91%D7%A9%D7%95%D7%AA-%D7%9C%D7%9E%D7%A8%D7%A7-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "תפו\"א זעיר למיקרו מבצע",
+      "category": "ירקות",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/823687-%D7%AA%D7%A4%D7%95-%D7%90-%D7%96%D7%A2%D7%99%D7%A8-%D7%9C%D7%9E%D7%99%D7%A7%D7%A8%D7%95-%D7%9E%D7%91%D7%A6%D7%A2-"
+    },
+    {
+      "name": "מארז עלי מיקרו 3 תאים",
+      "category": "ירקות",
+      "price": "17.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1915621-%D7%9E%D7%90%D7%A8%D7%96-%D7%A2%D7%9C%D7%99-%D7%9E%D7%99%D7%A7%D7%A8%D7%95-3-%D7%AA%D7%90%D7%99%D7%9D-"
+    },
+    {
+      "name": "חסה סלנובה",
+      "category": "ירקות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779501-%D7%97%D7%A1%D7%94-%D7%A1%D7%9C%D7%A0%D7%95%D7%91%D7%94"
+    },
+    {
+      "name": "פטריות יער מיובשות מארז",
+      "category": "ירקות",
+      "price": "11.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053681-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%99%D7%A2%D7%A8-%D7%9E%D7%99%D7%95%D7%91%D7%A9%D7%95%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פלפל ירוק בהיר חריף",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780659-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%99%D7%A8%D7%95%D7%A7-%D7%91%D7%94%D7%99%D7%A8-%D7%97%D7%A8%D7%99%D7%A3-"
+    },
+    {
+      "name": "פטריות מאיטקי מיובשות מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053692-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%9E%D7%90%D7%99%D7%98%D7%A7%D7%99-%D7%9E%D7%99%D7%95%D7%91%D7%A9%D7%95%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "לקט פטריות מיובשות לפסטה",
+      "category": "ירקות",
+      "price": "14.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053695-%D7%9C%D7%A7%D7%98-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%9E%D7%99%D7%95%D7%91%D7%A9%D7%95%D7%AA-%D7%9C%D7%A4%D7%A1%D7%98%D7%94"
+    },
+    {
+      "name": "נבטוטים יח'",
+      "category": "ירקות",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3250828-%D7%A0%D7%91%D7%98%D7%95%D7%98%D7%99%D7%9D-%D7%99%D7%97-"
+    },
+    {
+      "name": "שום קלוף מארז",
+      "category": "ירקות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1196983-%D7%A9%D7%95%D7%9D-%D7%A7%D7%9C%D7%95%D7%A3-%D7%9E%D7%90%D7%A8%D7%96-"
+    },
+    {
+      "name": "פלפל צ'ילי אדום מארז",
+      "category": "ירקות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780563-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%A6-%D7%99%D7%9C%D7%99-%D7%90%D7%93%D7%95%D7%9D-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "גזר תפזורת",
+      "category": "ירקות",
+      "price": "7.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/770738-%D7%92%D7%96%D7%A8-%D7%AA%D7%A4%D7%96%D7%95%D7%A8%D7%AA"
+    },
+    {
+      "name": "שומר",
+      "category": "ירקות",
+      "price": "11.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/805586-%D7%A9%D7%95%D7%9E%D7%A8"
+    },
+    {
+      "name": "חציל חממה",
+      "category": "ירקות",
+      "price": "9.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780881-%D7%97%D7%A6%D7%99%D7%9C-%D7%97%D7%9E%D7%9E%D7%94"
+    },
+    {
+      "name": "קישוא",
+      "category": "ירקות",
+      "price": "9.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780880-%D7%A7%D7%99%D7%A9%D7%95%D7%90-"
+    },
+    {
+      "name": "פטריות שיטאקי מיובשות מארז",
+      "category": "ירקות",
+      "price": "11.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053684-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A9%D7%99%D7%98%D7%90%D7%A7%D7%99-%D7%9E%D7%99%D7%95%D7%91%D7%A9%D7%95%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "פטריות שמפניון מיובשות מארז",
+      "category": "ירקות",
+      "price": "12.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3053687-%D7%A4%D7%98%D7%A8%D7%99%D7%95%D7%AA-%D7%A9%D7%9E%D7%A4%D7%A0%D7%99%D7%95%D7%9F-%D7%9E%D7%99%D7%95%D7%91%D7%A9%D7%95%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "חציל בלאדי",
+      "category": "ירקות",
+      "price": "11.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780982-%D7%97%D7%A6%D7%99%D7%9C-%D7%91%D7%9C%D7%90%D7%93%D7%99-"
+    },
+    {
+      "name": "פלפל ירוק",
+      "category": "ירקות",
+      "price": "14.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/770741-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%99%D7%A8%D7%95%D7%A7-"
+    },
+    {
+      "name": "קוביות דלעת מקולפת",
+      "category": "ירקות",
+      "price": "21.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/4106640-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%93%D7%9C%D7%A2%D7%AA-%D7%9E%D7%A7%D7%95%D7%9C%D7%A4%D7%AA-"
+    },
+    {
+      "name": "המבורגר טבעוני- קליפורניה",
+      "category": "פירות",
+      "price": "32.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6604804-%D7%94%D7%9E%D7%91%D7%95%D7%A8%D7%92%D7%A8-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99-%D7%A7%D7%9C%D7%99%D7%A4%D7%95%D7%A8%D7%A0%D7%99%D7%94"
+    },
+    {
+      "name": "המבורגר ניו יורק טבעוני",
+      "category": "פירות",
+      "price": "32.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6604814-%D7%94%D7%9E%D7%91%D7%95%D7%A8%D7%92%D7%A8-%D7%A0%D7%99%D7%95-%D7%99%D7%95%D7%A8%D7%A7-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99"
+    },
+    {
+      "name": "תות שדה מבצע 2 מארזים כ 500ג\"ר כול מארז",
+      "category": "פירות",
+      "price": "24.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779795-%D7%AA%D7%95%D7%AA-%D7%A9%D7%93%D7%94-%D7%9E%D7%91%D7%A6%D7%A2-2-%D7%9E%D7%90%D7%A8%D7%96%D7%99%D7%9D-%D7%9B-500%D7%92-%D7%A8-%D7%9B%D7%95%D7%9C-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "תות שדה מארז - 500 ג\"ר",
+      "category": "פירות",
+      "price": "13.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1721121-%D7%AA%D7%95%D7%AA-%D7%A9%D7%93%D7%94-%D7%9E%D7%90%D7%A8%D7%96-500-%D7%92-%D7%A8"
+    },
+    {
+      "name": "ענבים ירוקים",
+      "category": "פירות",
+      "price": "38.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3975713-%D7%A2%D7%A0%D7%91%D7%99%D7%9D-%D7%99%D7%A8%D7%95%D7%A7%D7%99%D7%9D-"
+    },
+    {
+      "name": "אבטיח",
+      "category": "פירות",
+      "price": "8.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2512704-%D7%90%D7%91%D7%98%D7%99%D7%97-"
+    },
+    {
+      "name": "אננס גדול יח'",
+      "category": "פירות",
+      "price": "44.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2518357-%D7%90%D7%A0%D7%A0%D7%A1-%D7%92%D7%93%D7%95%D7%9C-%D7%99%D7%97-"
+    },
+    {
+      "name": "רימון ק\"ג",
+      "category": "פירות",
+      "price": "19.9 ₪/יח ׳",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780381-%D7%A8%D7%99%D7%9E%D7%95%D7%9F-%D7%A7-%D7%92"
+    },
+    {
+      "name": "תמר בונבון כרם",
+      "category": "פירות",
+      "price": "32.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7407460-%D7%AA%D7%9E%D7%A8-%D7%91%D7%95%D7%A0%D7%91%D7%95%D7%9F-%D7%9B%D7%A8%D7%9D"
+    },
+    {
+      "name": "שסק למארז",
+      "category": "פירות",
+      "price": "49.9 ₪/י'ח",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780915-%D7%A9%D7%A1%D7%A7-%D7%9C%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "תפוח נאשי",
+      "category": "פירות",
+      "price": "11.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/4680840-%D7%AA%D7%A4%D7%95%D7%97-%D7%A0%D7%90%D7%A9%D7%99"
+    },
+    {
+      "name": "נקטרינה ק\"ג",
+      "category": "פירות",
+      "price": "59.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780938-%D7%A0%D7%A7%D7%98%D7%A8%D7%99%D7%A0%D7%94-%D7%A7-%D7%92"
+    },
+    {
+      "name": "ענבים שחורים לקג",
+      "category": "פירות",
+      "price": "38.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780439-%D7%A2%D7%A0%D7%91%D7%99%D7%9D-%D7%A9%D7%97%D7%95%D7%A8%D7%99%D7%9D-%D7%9C%D7%A7%D7%92-"
+    },
+    {
+      "name": "אוכמניות",
+      "category": "פירות",
+      "price": "24.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/9028521-%D7%90%D7%95%D7%9B%D7%9E%D7%A0%D7%99%D7%95%D7%AA"
+    },
+    {
+      "name": "קלמנטינה ק\"ג",
+      "category": "פירות",
+      "price": "11.9 ₪/יח",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780466-%D7%A7%D7%9C%D7%9E%D7%A0%D7%98%D7%99%D7%A0%D7%94-%D7%A7-%D7%92"
+    },
+    {
+      "name": "פומלה",
+      "category": "פירות",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6486981-%D7%A4%D7%95%D7%9E%D7%9C%D7%94-"
+    },
+    {
+      "name": "פסיפלורה מארז",
+      "category": "פירות",
+      "price": "24.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2419159-%D7%A4%D7%A1%D7%99%D7%A4%D7%9C%D7%95%D7%A8%D7%94-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "תות פקיסטני",
+      "category": "פירות",
+      "price": "14.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8687324-%D7%AA%D7%95%D7%AA-%D7%A4%D7%A7%D7%99%D7%A1%D7%98%D7%A0%D7%99-"
+    },
+    {
+      "name": "חצי אבטיח",
+      "category": "פירות",
+      "price": "8.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1714914-%D7%97%D7%A6%D7%99-%D7%90%D7%91%D7%98%D7%99%D7%97-"
+    },
+    {
+      "name": "אוכמניות ג'מבו טריות",
+      "category": "פירות",
+      "price": "29.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1813731-%D7%90%D7%95%D7%9B%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%92-%D7%9E%D7%91%D7%95-%D7%98%D7%A8%D7%99%D7%95%D7%AA"
+    },
+    {
+      "name": "פטל שחור קפוא-300 ג\"ר",
+      "category": "פירות",
+      "price": "26.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6311418-%D7%A4%D7%98%D7%9C-%D7%A9%D7%97%D7%95%D7%A8-%D7%A7%D7%A4%D7%95%D7%90-300-%D7%92-%D7%A8"
+    },
+    {
+      "name": "אשכולית אדומה",
+      "category": "פירות",
+      "price": "9.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779514-%D7%90%D7%A9%D7%9B%D7%95%D7%9C%D7%99%D7%AA-%D7%90%D7%93%D7%95%D7%9E%D7%94-"
+    },
+    {
+      "name": "אדממה 1 ק\"ג",
+      "category": "פירות",
+      "price": "20.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7672617-%D7%90%D7%93%D7%9E%D7%9E%D7%94-1-%D7%A7-%D7%92"
+    },
+    {
+      "name": "גלידת טבעונית תותים \"בשמנת\"-ilo",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7490102-%D7%92%D7%9C%D7%99%D7%93%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%AA%D7%95%D7%AA%D7%99%D7%9D-%D7%91%D7%A9%D7%9E%D7%A0%D7%AA-ilo"
+    },
+    {
+      "name": "קרמבולה ק\"ג",
+      "category": "פירות",
+      "price": "35.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780889-%D7%A7%D7%A8%D7%9E%D7%91%D7%95%D7%9C%D7%94-%D7%A7-%D7%92"
+    },
+    {
+      "name": "פירות קיץ לריבה",
+      "category": "פירות",
+      "price": "4.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1844058-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%99%D7%A5-%D7%9C%D7%A8%D7%99%D7%91%D7%94-"
+    },
+    {
+      "name": "פירות קפואים- בננה",
+      "category": "פירות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2952060-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%91%D7%A0%D7%A0%D7%94"
+    },
+    {
+      "name": "תפוזים לסחיטה מארז",
+      "category": "פירות",
+      "price": "7.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1090176-%D7%AA%D7%A4%D7%95%D7%96%D7%99%D7%9D-%D7%9C%D7%A1%D7%97%D7%99%D7%98%D7%94-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "מלון ק\"ג",
+      "category": "פירות",
+      "price": "12.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780929-%D7%9E%D7%9C%D7%95%D7%9F-%D7%A7-%D7%92"
+    },
+    {
+      "name": "אגס",
+      "category": "פירות",
+      "price": "19.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780935-%D7%90%D7%92%D7%A1-"
+    },
+    {
+      "name": "אגס אדום",
+      "category": "פירות",
+      "price": "19.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/4680844-%D7%90%D7%92%D7%A1-%D7%90%D7%93%D7%95%D7%9D"
+    },
+    {
+      "name": "פלחי פומלה",
+      "category": "פירות",
+      "price": "23.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/822185-%D7%A4%D7%9C%D7%97%D7%99-%D7%A4%D7%95%D7%9E%D7%9C%D7%94"
+    },
+    {
+      "name": "זר נוריות- לבן, אדום, ורוד,צהוב",
+      "category": "פירות",
+      "price": "16.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7924926-%D7%96%D7%A8-%D7%A0%D7%95%D7%A8%D7%99%D7%95%D7%AA-%D7%9C%D7%91%D7%9F-%D7%90%D7%93%D7%95%D7%9D-%D7%95%D7%A8%D7%95%D7%93-%D7%A6%D7%94%D7%95%D7%91"
+    },
+    {
+      "name": "פינק ליידי ישראלי",
+      "category": "פירות",
+      "price": "18.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1070274-%D7%A4%D7%99%D7%A0%D7%A7-%D7%9C%D7%99%D7%99%D7%93%D7%99-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99"
+    },
+    {
+      "name": "פומלית ק\"ג",
+      "category": "פירות",
+      "price": "9.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1012459-%D7%A4%D7%95%D7%9E%D7%9C%D7%99%D7%AA-%D7%A7-%D7%92"
+    },
+    {
+      "name": "פסיפלורה ק\"ג",
+      "category": "פירות",
+      "price": "21.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779575-%D7%A4%D7%A1%D7%99%D7%A4%D7%9C%D7%95%D7%A8%D7%94-%D7%A7-%D7%92"
+    },
+    {
+      "name": "תפוח זהוב",
+      "category": "פירות",
+      "price": "15.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/776027-%D7%AA%D7%A4%D7%95%D7%97-%D7%96%D7%94%D7%95%D7%91-"
+    },
+    {
+      "name": "קיווי ק\"ג",
+      "category": "פירות",
+      "price": "27.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779885-%D7%A7%D7%99%D7%95%D7%95%D7%99-%D7%A7-%D7%92-"
+    },
+    {
+      "name": "סברס מקולף",
+      "category": "פירות",
+      "price": "48.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/822165-%D7%A1%D7%91%D7%A8%D7%A1-%D7%9E%D7%A7%D7%95%D7%9C%D7%A3"
+    },
+    {
+      "name": "בננה",
+      "category": "פירות",
+      "price": "13.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779680-%D7%91%D7%A0%D7%A0%D7%94-"
+    },
+    {
+      "name": "גרגרי רימון",
+      "category": "פירות",
+      "price": "22.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780977-%D7%92%D7%A8%D7%92%D7%A8%D7%99-%D7%A8%D7%99%D7%9E%D7%95%D7%9F"
+    },
+    {
+      "name": "תפוח חרמון",
+      "category": "פירות",
+      "price": "15.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780744-%D7%AA%D7%A4%D7%95%D7%97-%D7%97%D7%A8%D7%9E%D7%95%D7%9F"
+    },
+    {
+      "name": "סברס ק\"ג",
+      "category": "פירות",
+      "price": "45.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/822223-%D7%A1%D7%91%D7%A8%D7%A1-%D7%A7-%D7%92"
+    },
+    {
+      "name": "תפוח עץ פינק ליידי",
+      "category": "פירות",
+      "price": "21.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779812-%D7%AA%D7%A4%D7%95%D7%97-%D7%A2%D7%A5-%D7%A4%D7%99%D7%A0%D7%A7-%D7%9C%D7%99%D7%99%D7%93%D7%99-"
+    },
+    {
+      "name": "מארז אסאי",
+      "category": "פירות",
+      "price": "42.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2952066-%D7%9E%D7%90%D7%A8%D7%96-%D7%90%D7%A1%D7%90%D7%99"
+    },
+    {
+      "name": "תפוזים",
+      "category": "פירות",
+      "price": "9.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780962-%D7%AA%D7%A4%D7%95%D7%96%D7%99%D7%9D-"
+    },
+    {
+      "name": "תפוח גרנד סמיט",
+      "category": "פירות",
+      "price": "15.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780785-%D7%AA%D7%A4%D7%95%D7%97-%D7%92%D7%A8%D7%A0%D7%93-%D7%A1%D7%9E%D7%99%D7%98-"
+    },
+    {
+      "name": "תפוחים לאפיה",
+      "category": "פירות",
+      "price": "4.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1070271-%D7%AA%D7%A4%D7%95%D7%97%D7%99%D7%9D-%D7%9C%D7%90%D7%A4%D7%99%D7%94-"
+    },
+    {
+      "name": "פיטיה קפואה",
+      "category": "פירות",
+      "price": "32.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8300038-%D7%A4%D7%99%D7%98%D7%99%D7%94-%D7%A7%D7%A4%D7%95%D7%90%D7%94"
+    },
+    {
+      "name": "כדורי מחית קוקוס אורגני מוקפא-ליב",
+      "category": "פירות",
+      "price": "25.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7996430-%D7%9B%D7%93%D7%95%D7%A8%D7%99-%D7%9E%D7%97%D7%99%D7%AA-%D7%A7%D7%95%D7%A7%D7%95%D7%A1-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99-%D7%9E%D7%95%D7%A7%D7%A4%D7%90-%D7%9C%D7%99%D7%91"
+    },
+    {
+      "name": "דפי אורז קפואים",
+      "category": "פירות",
+      "price": "18.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8300048-%D7%93%D7%A4%D7%99-%D7%90%D7%95%D7%A8%D7%96-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D"
+    },
+    {
+      "name": "פירות קפואים- דומדמניות אדומות",
+      "category": "פירות",
+      "price": "29.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3976469-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%93%D7%95%D7%9E%D7%93%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%90%D7%93%D7%95%D7%9E%D7%95%D7%AA"
+    },
+    {
+      "name": "פטל אדום מצופה שוקולד חלב -franui",
+      "category": "פירות",
+      "price": "35.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6391579-%D7%A4%D7%98%D7%9C-%D7%90%D7%93%D7%95%D7%9D-%D7%9E%D7%A6%D7%95%D7%A4%D7%94-%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-%D7%97%D7%9C%D7%91-franui"
+    },
+    {
+      "name": "פטל אדןם מצופה שוקולד מריר",
+      "category": "פירות",
+      "price": "35.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6391581-%D7%A4%D7%98%D7%9C-%D7%90%D7%93%D7%9F%D7%9D-%D7%9E%D7%A6%D7%95%D7%A4%D7%94-%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-%D7%9E%D7%A8%D7%99%D7%A8"
+    },
+    {
+      "name": "אסאי",
+      "category": "פירות",
+      "price": "49.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7490099-%D7%90%D7%A1%D7%90%D7%99"
+    },
+    {
+      "name": "גלידת טבעונית פיסטוק עם קראנץ פיסטוק קלוי-ilo",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7490100-%D7%92%D7%9C%D7%99%D7%93%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%A4%D7%99%D7%A1%D7%98%D7%95%D7%A7-%D7%A2%D7%9D-%D7%A7%D7%A8%D7%90%D7%A0%D7%A5-%D7%A4%D7%99%D7%A1%D7%98%D7%95%D7%A7-%D7%A7%D7%9C%D7%95%D7%99-ilo"
+    },
+    {
+      "name": "פירות קפואים- פסיפלורה",
+      "category": "פירות",
+      "price": "32.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2511924-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%A4%D7%A1%D7%99%D7%A4%D7%9C%D7%95%D7%A8%D7%94"
+    },
+    {
+      "name": "גלידת טבעונית שוקולד עם פצפוצי שוקולד-ilo",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7490101-%D7%92%D7%9C%D7%99%D7%93%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-%D7%A2%D7%9D-%D7%A4%D7%A6%D7%A4%D7%95%D7%A6%D7%99-%D7%A9%D7%95%D7%A7%D7%95%D7%9C%D7%93-ilo"
+    },
+    {
+      "name": "גלידת טבעונית קרמל פקאן אקזוטי-ilo",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7490103-%D7%92%D7%9C%D7%99%D7%93%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%A7%D7%A8%D7%9E%D7%9C-%D7%A4%D7%A7%D7%90%D7%9F-%D7%90%D7%A7%D7%96%D7%95%D7%98%D7%99-ilo"
+    },
+    {
+      "name": "פירות קפואים- תות",
+      "category": "פירות",
+      "price": "29.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2511929-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%AA%D7%95%D7%AA"
+    },
+    {
+      "name": "פירות קפואים- מנגו",
+      "category": "פירות",
+      "price": "29.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2511938-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%9E%D7%A0%D7%92%D7%95"
+    },
+    {
+      "name": "ספרולינה טריה בהקפאה 140 ג\"ר - סימפליגוד",
+      "category": "פירות",
+      "price": "37.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/5856322-%D7%A1%D7%A4%D7%A8%D7%95%D7%9C%D7%99%D7%A0%D7%94-%D7%98%D7%A8%D7%99%D7%94-%D7%91%D7%94%D7%A7%D7%A4%D7%90%D7%94-140-%D7%92-%D7%A8-%D7%A1%D7%99%D7%9E%D7%A4%D7%9C%D7%99%D7%92%D7%95%D7%93"
+    },
+    {
+      "name": "תמר מגהול גדיד השנה ק\"ג",
+      "category": "פירות",
+      "price": "49.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7407430-%D7%AA%D7%9E%D7%A8-%D7%9E%D7%92%D7%94%D7%95%D7%9C-%D7%92%D7%93%D7%99%D7%93-%D7%94%D7%A9%D7%A0%D7%94-%D7%A7-%D7%92"
+    },
+    {
+      "name": "פירות קפואים- מיקס פירות יער",
+      "category": "פירות",
+      "price": "29.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2511944-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%9E%D7%99%D7%A7%D7%A1-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%99%D7%A2%D7%A8"
+    },
+    {
+      "name": "פירות קפואים- אוכמניות כחולות",
+      "category": "פירות",
+      "price": "38.0 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2511946-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%90%D7%95%D7%9B%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%9B%D7%97%D7%95%D7%9C%D7%95%D7%AA-"
+    },
+    {
+      "name": "שעועית ירוקה שלמה עדינה",
+      "category": "פירות",
+      "price": "16.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7185503-%D7%A9%D7%A2%D7%95%D7%A2%D7%99%D7%AA-%D7%99%D7%A8%D7%95%D7%A7%D7%94-%D7%A9%D7%9C%D7%9E%D7%94-%D7%A2%D7%93%D7%99%D7%A0%D7%94"
+    },
+    {
+      "name": "ניוקי תפו\"א-פסטה ריאורו",
+      "category": "פירות",
+      "price": "21.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8064352-%D7%A0%D7%99%D7%95%D7%A7%D7%99-%D7%AA%D7%A4%D7%95-%D7%90-%D7%A4%D7%A1%D7%98%D7%94-%D7%A8%D7%99%D7%90%D7%95%D7%A8%D7%95"
+    },
+    {
+      "name": "פירות קפואים- מלון",
+      "category": "פירות",
+      "price": "29.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2952047-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%9E%D7%9C%D7%95%D7%9F"
+    },
+    {
+      "name": "תמרים לחים מארז",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1981296-%D7%AA%D7%9E%D7%A8%D7%99%D7%9D-%D7%9C%D7%97%D7%99%D7%9D-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "רביולי בטטה-פסטה דיאורו",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8064376-%D7%A8%D7%91%D7%99%D7%95%D7%9C%D7%99-%D7%91%D7%98%D7%98%D7%94-%D7%A4%D7%A1%D7%98%D7%94-%D7%93%D7%99%D7%90%D7%95%D7%A8%D7%95-"
+    },
+    {
+      "name": "גלידת טבעונית פאי לימון-ilo",
+      "category": "פירות",
+      "price": "34.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7707770-%D7%92%D7%9C%D7%99%D7%93%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%A4%D7%90%D7%99-%D7%9C%D7%99%D7%9E%D7%95%D7%9F-ilo"
+    },
+    {
+      "name": "גלידת טבעונית קרמל עם פקאן",
+      "category": "פירות",
+      "price": "33.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8064399-%D7%92%D7%9C%D7%99%D7%93%D7%AA-%D7%98%D7%91%D7%A2%D7%95%D7%A0%D7%99%D7%AA-%D7%A7%D7%A8%D7%9E%D7%9C-%D7%A2%D7%9D-%D7%A4%D7%A7%D7%90%D7%9F"
+    },
+    {
+      "name": "מלוואח לל\"ג",
+      "category": "פירות",
+      "price": "24.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8064404-%D7%9E%D7%9C%D7%95%D7%95%D7%90%D7%97-%D7%9C%D7%9C-%D7%92"
+    },
+    {
+      "name": "דומדמניות שחורות -ליב",
+      "category": "פירות",
+      "price": "23.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6822557-%D7%93%D7%95%D7%9E%D7%93%D7%9E%D7%A0%D7%99%D7%95%D7%AA-%D7%A9%D7%97%D7%95%D7%A8%D7%95%D7%AA-%D7%9C%D7%99%D7%91"
+    },
+    {
+      "name": "שעועית ירוקה אורגנית קפואה-ליב",
+      "category": "פירות",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6164382-%D7%A9%D7%A2%D7%95%D7%A2%D7%99%D7%AA-%D7%99%D7%A8%D7%95%D7%A7%D7%94-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%94-%D7%9C%D7%99%D7%91-"
+    },
+    {
+      "name": "קבב בולגרי עם פיטרוזליה -מן הצומח",
+      "category": "פירות",
+      "price": "32.8 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8602280-%D7%A7%D7%91%D7%91-%D7%91%D7%95%D7%9C%D7%92%D7%A8%D7%99-%D7%A2%D7%9D-%D7%A4%D7%99%D7%98%D7%A8%D7%95%D7%96%D7%9C%D7%99%D7%94-%D7%9E%D7%9F-%D7%94%D7%A6%D7%95%D7%9E%D7%97"
+    },
+    {
+      "name": "בורקס לוינסקי תפו\"א קפוא 8 י\"ח",
+      "category": "פירות",
+      "price": "44.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8890542-%D7%91%D7%95%D7%A8%D7%A7%D7%A1-%D7%9C%D7%95%D7%99%D7%A0%D7%A1%D7%A7%D7%99-%D7%AA%D7%A4%D7%95-%D7%90-%D7%A7%D7%A4%D7%95%D7%90-8-%D7%99-%D7%97"
+    },
+    {
+      "name": "בורקס לוינסקי תרד גבינות קפוא 8 י\"ח",
+      "category": "פירות",
+      "price": "44.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8890543-%D7%91%D7%95%D7%A8%D7%A7%D7%A1-%D7%9C%D7%95%D7%99%D7%A0%D7%A1%D7%A7%D7%99-%D7%AA%D7%A8%D7%93-%D7%92%D7%91%D7%99%D7%A0%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90-8-%D7%99-%D7%97"
+    },
+    {
+      "name": "אדממה 450 ג\"ר - ליב אורגני",
+      "category": "פירות",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7750582-%D7%90%D7%93%D7%9E%D7%9E%D7%94-450-%D7%92-%D7%A8-%D7%9C%D7%99%D7%91-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99"
+    },
+    {
+      "name": "ג'חנון נורית אפוי-קפוא",
+      "category": "פירות",
+      "price": "37.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8890551-%D7%92-%D7%97%D7%A0%D7%95%D7%9F-%D7%A0%D7%95%D7%A8%D7%99%D7%AA-%D7%90%D7%A4%D7%95%D7%99-%D7%A7%D7%A4%D7%95%D7%90-"
+    },
+    {
+      "name": "פירות קפואים- אננס",
+      "category": "פירות",
+      "price": "29.5 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/4210128-%D7%A4%D7%99%D7%A8%D7%95%D7%AA-%D7%A7%D7%A4%D7%95%D7%90%D7%99%D7%9D-%D7%90%D7%A0%D7%A0%D7%A1"
+    },
+    {
+      "name": "בורקס גבינה ללג-אריאל",
+      "category": "פירות",
+      "price": "26.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7781340-%D7%91%D7%95%D7%A8%D7%A7%D7%A1-%D7%92%D7%91%D7%99%D7%A0%D7%94-%D7%9C%D7%9C%D7%92-%D7%90%D7%A8%D7%99%D7%90%D7%9C"
+    },
+    {
+      "name": "אפונת גינה אורגנית מוקפאת",
+      "category": "פירות",
+      "price": "17.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6012380-%D7%90%D7%A4%D7%95%D7%A0%D7%AA-%D7%92%D7%99%D7%A0%D7%94-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99%D7%AA-%D7%9E%D7%95%D7%A7%D7%A4%D7%90%D7%AA"
+    },
+    {
+      "name": "שערות קדאיף 450 גר",
+      "category": "פירות",
+      "price": "23.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7693811-%D7%A9%D7%A2%D7%A8%D7%95%D7%AA-%D7%A7%D7%93%D7%90%D7%99%D7%A3-450-%D7%92%D7%A8"
+    },
+    {
+      "name": "כדורי מחית אסאי אורגני מוקפא- ליב",
+      "category": "פירות",
+      "price": "25.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7996409-%D7%9B%D7%93%D7%95%D7%A8%D7%99-%D7%9E%D7%97%D7%99%D7%AA-%D7%90%D7%A1%D7%90%D7%99-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99-%D7%9E%D7%95%D7%A7%D7%A4%D7%90-%D7%9C%D7%99%D7%91"
+    },
+    {
+      "name": "פטל אדום אורגני קפוא 300 ג\"ר",
+      "category": "פירות",
+      "price": "33.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/6311417-%D7%A4%D7%98%D7%9C-%D7%90%D7%93%D7%95%D7%9D-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99-%D7%A7%D7%A4%D7%95%D7%90-300-%D7%92-%D7%A8"
+    },
+    {
+      "name": "כדורי מחית מנגו אורגני מוקפא-ליב",
+      "category": "פירות",
+      "price": "25.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7996410-%D7%9B%D7%93%D7%95%D7%A8%D7%99-%D7%9E%D7%97%D7%99%D7%AA-%D7%9E%D7%A0%D7%92%D7%95-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99-%D7%9E%D7%95%D7%A7%D7%A4%D7%90-%D7%9C%D7%99%D7%91"
+    },
+    {
+      "name": "בצל ירוק י'ח",
+      "category": "עשבי תיבול",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/805633-%D7%91%D7%A6%D7%9C-%D7%99%D7%A8%D7%95%D7%A7-%D7%99-%D7%97"
+    },
+    {
+      "name": "גבעולי סלרי אמריקאי",
+      "category": "עשבי תיבול",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780588-%D7%92%D7%91%D7%A2%D7%95%D7%9C%D7%99-%D7%A1%D7%9C%D7%A8%D7%99-%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%90%D7%99"
+    },
+    {
+      "name": "עלי מנגולד/סלק אורגני מבצע",
+      "category": "עשבי תיבול",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780856-%D7%A2%D7%9C%D7%99-%D7%9E%D7%A0%D7%92%D7%95%D7%9C%D7%93-%D7%A1%D7%9C%D7%A7-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99-%D7%9E%D7%91%D7%A6%D7%A2"
+    },
+    {
+      "name": "עירית",
+      "category": "עשבי תיבול",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779589-%D7%A2%D7%99%D7%A8%D7%99%D7%AA"
+    },
+    {
+      "name": "שורש כורכום מארז",
+      "category": "עשבי תיבול",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780532-%D7%A9%D7%95%D7%A8%D7%A9-%D7%9B%D7%95%D7%A8%D7%9B%D7%95%D7%9D-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "כרישה/לוף ק\"ג",
+      "category": "עשבי תיבול",
+      "price": "19.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780839-%D7%9B%D7%A8%D7%99%D7%A9%D7%94-%D7%9C%D7%95%D7%A3-%D7%A7-%D7%92"
+    },
+    {
+      "name": "פטרוזיליה",
+      "category": "עשבי תיבול",
+      "price": "4.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779828-%D7%A4%D7%98%D7%A8%D7%95%D7%96%D7%99%D7%9C%D7%99%D7%94"
+    },
+    {
+      "name": "בזיליקום יח",
+      "category": "עשבי תיבול",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779871-%D7%91%D7%96%D7%99%D7%9C%D7%99%D7%A7%D7%95%D7%9D-%D7%99%D7%97"
+    },
+    {
+      "name": "סלרי ראש",
+      "category": "עשבי תיבול",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779897-%D7%A1%D7%9C%D7%A8%D7%99-%D7%A8%D7%90%D7%A9"
+    },
+    {
+      "name": "נענע",
+      "category": "עשבי תיבול",
+      "price": "4.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780670-%D7%A0%D7%A2%D7%A0%D7%A2"
+    },
+    {
+      "name": "כוסברה",
+      "category": "עשבי תיבול",
+      "price": "4.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780960-%D7%9B%D7%95%D7%A1%D7%91%D7%A8%D7%94"
+    },
+    {
+      "name": "למון גראס-אורגני",
+      "category": "עשבי תיבול",
+      "price": "6.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780927-%D7%9C%D7%9E%D7%95%D7%9F-%D7%92%D7%A8%D7%90%D7%A1-%D7%90%D7%95%D7%A8%D7%92%D7%A0%D7%99"
+    },
+    {
+      "name": "שורש ג'ינג'ר מארז",
+      "category": "עשבי תיבול",
+      "price": "16.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780637-%D7%A9%D7%95%D7%A8%D7%A9-%D7%92-%D7%99%D7%A0%D7%92-%D7%A8-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "סלרי אמריקאי",
+      "category": "עשבי תיבול",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/775999-%D7%A1%D7%9C%D7%A8%D7%99-%D7%90%D7%9E%D7%A8%D7%99%D7%A7%D7%90%D7%99-"
+    },
+    {
+      "name": "עלי תרד מארז",
+      "category": "עשבי תיבול",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/823688-%D7%A2%D7%9C%D7%99-%D7%AA%D7%A8%D7%93-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "שמיר יח'",
+      "category": "עשבי תיבול",
+      "price": "4.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/940072-%D7%A9%D7%9E%D7%99%D7%A8-%D7%99%D7%97-"
+    },
+    {
+      "name": "רוזמרין יח",
+      "category": "עשבי תיבול",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780695-%D7%A8%D7%95%D7%96%D7%9E%D7%A8%D7%99%D7%9F-%D7%99%D7%97"
+    },
+    {
+      "name": "רוקט",
+      "category": "עשבי תיבול",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780453-%D7%A8%D7%95%D7%A7%D7%98"
+    },
+    {
+      "name": "מרווה יח",
+      "category": "עשבי תיבול",
+      "price": "7.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780969-%D7%9E%D7%A8%D7%95%D7%95%D7%94-%D7%99%D7%97"
+    },
+    {
+      "name": "שורש פטרוזליה יח'",
+      "category": "עשבי תיבול",
+      "price": "8.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/1477061-%D7%A9%D7%95%D7%A8%D7%A9-%D7%A4%D7%98%D7%A8%D7%95%D7%96%D7%9C%D7%99%D7%94-%D7%99%D7%97-"
+    },
+    {
+      "name": "טימין יח",
+      "category": "עשבי תיבול",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780765-%D7%98%D7%99%D7%9E%D7%99%D7%9F-%D7%99%D7%97"
+    },
+    {
+      "name": "לקט עלים לתה",
+      "category": "עשבי תיבול",
+      "price": "11.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/7656417-%D7%9C%D7%A7%D7%98-%D7%A2%D7%9C%D7%99%D7%9D-%D7%9C%D7%AA%D7%94"
+    },
+    {
+      "name": "דלעת ק\"ג",
+      "category": "ירקות גינה",
+      "price": "15.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/805320-%D7%93%D7%9C%D7%A2%D7%AA-%D7%A7-%D7%92"
+    },
+    {
+      "name": "סלק",
+      "category": "ירקות גינה",
+      "price": "13.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780883-%D7%A1%D7%9C%D7%A7-"
+    },
+    {
+      "name": "מארז צנונית מארז",
+      "category": "ירקות גינה",
+      "price": "6.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800925-%D7%9E%D7%90%D7%A8%D7%96-%D7%A6%D7%A0%D7%95%D7%A0%D7%99%D7%AA-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "מארז שום",
+      "category": "ירקות גינה",
+      "price": "9.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/800927-%D7%9E%D7%90%D7%A8%D7%96-%D7%A9%D7%95%D7%9D"
+    },
+    {
+      "name": "דלורית",
+      "category": "ירקות גינה",
+      "price": "12.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/780709-%D7%93%D7%9C%D7%95%D7%A8%D7%99%D7%AA-"
+    },
+    {
+      "name": "מלפפון גמדי מארז",
+      "category": "ירקות גינה",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/870641-%D7%9E%D7%9C%D7%A4%D7%A4%D7%95%D7%9F-%D7%92%D7%9E%D7%93%D7%99-%D7%9E%D7%90%D7%A8%D7%96-"
+    },
+    {
+      "name": "פלפל טנקרבל מארז",
+      "category": "ירקות גינה",
+      "price": "10.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/846081-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%98%D7%A0%D7%A7%D7%A8%D7%91%D7%9C-%D7%9E%D7%90%D7%A8%D7%96"
+    },
+    {
+      "name": "מיקס בריאות לסלט",
+      "category": "ירקות גינה",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2419479-%D7%9E%D7%99%D7%A7%D7%A1-%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA-%D7%9C%D7%A1%D7%9C%D7%98"
+    },
+    {
+      "name": "פלפל שושקה מיקס",
+      "category": "ירקות גינה",
+      "price": "19.9 ₪/יח` ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/8760601-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%A9%D7%95%D7%A9%D7%A7%D7%94-%D7%9E%D7%99%D7%A7%D7%A1"
+    },
+    {
+      "name": "פלפל חלפניו",
+      "category": "ירקות גינה",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/3985185-%D7%A4%D7%9C%D7%A4%D7%9C-%D7%97%D7%9C%D7%A4%D7%A0%D7%99%D7%95"
+    },
+    {
+      "name": "דלעת פיתה יח'",
+      "category": "ירקות גינה",
+      "price": "19.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2406954-%D7%93%D7%9C%D7%A2%D7%AA-%D7%A4%D7%99%D7%AA%D7%94-%D7%99%D7%97-"
+    },
+    {
+      "name": "לימון ננסי",
+      "category": "ירקות גינה",
+      "price": "13.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/2632493-%D7%9C%D7%99%D7%9E%D7%95%D7%9F-%D7%A0%D7%A0%D7%A1%D7%99"
+    },
+    {
+      "name": "ראשי שום ישראלי",
+      "category": "ירקות גינה",
+      "price": "29.9 ₪/יח`",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/779841-%D7%A8%D7%90%D7%A9%D7%99-%D7%A9%D7%95%D7%9D-%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99-"
+    },
+    {
+      "name": "חסה לאליק",
+      "category": "ירקות גינה",
+      "price": "11.9 ₪/ק\"ג",
+      "available": true,
+      "url": "https://www.lekethasade.co.il/current_customer/items/4972645-%D7%97%D7%A1%D7%94-%D7%9C%D7%90%D7%9C%D7%99%D7%A7"
+    }
+  ]
+}
