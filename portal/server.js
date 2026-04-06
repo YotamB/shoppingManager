@@ -251,6 +251,50 @@ app.get('/api/shufersal/monthly-spend', (req, res) => {
   res.json(monthly);
 });
 
+// ── Shopping List API ──────────────────────────────────────────────────
+const LIST_PATH = path.join(__dirname, '..', 'shopping_list.json');
+
+function readList() {
+  try { return JSON.parse(fs.readFileSync(LIST_PATH, 'utf8')); }
+  catch(e) { return { leket: [], shufersal: [] }; }
+}
+function saveList(data) {
+  data.lastUpdated = new Date().toISOString();
+  fs.writeFileSync(LIST_PATH, JSON.stringify(data, null, 2));
+}
+
+app.get('/api/list', (req, res) => res.json(readList()));
+
+app.post('/api/list/add', (req, res) => {
+  const { store, name, qty = 1, note = '' } = req.body;
+  if (!store || !name) return res.status(400).json({ error: 'Missing store or name' });
+  const lists = readList();
+  const existing = (lists[store] || []).find(i => i.name.toLowerCase() === name.toLowerCase());
+  if (existing) {
+    existing.qty += qty;
+    res.json({ action: 'updated', item: existing });
+  } else {
+    const entry = { name, qty, added: new Date().toISOString().slice(0,16).replace('T',' '), note };
+    if (!lists[store]) lists[store] = [];
+    lists[store].push(entry);
+    res.json({ action: 'added', item: entry });
+  }
+  saveList(lists);
+});
+
+app.delete('/api/list/item', (req, res) => {
+  const { store, name } = req.body;
+  if (!store || !name) return res.status(400).json({ error: 'Missing store or name' });
+  const lists = readList();
+  lists[store] = (lists[store] || []).filter(i => i.name.toLowerCase() !== name.toLowerCase());
+  saveList(lists);
+  res.json({ success: true });
+});
+
+app.get('/list', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'list.html'));
+});
+
 // ── Homepage ─────────────────────────────────────────────────────────────────
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
