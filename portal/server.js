@@ -82,6 +82,108 @@ app.post('/api/shufersal/build-cart', (req, res) => {
   });
 });
 
+// ── Leket API ───────────────────────────────────────────────────────────────
+const LEKET_DATA = path.join(__dirname, '..', 'leket');
+
+function readLeket(filename) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(LEKET_DATA, filename), 'utf8'));
+  } catch (e) { return null; }
+}
+
+app.get('/api/leket/summary', (req, res) => {
+  const parsed = readLeket('parsed_orders.json');
+  const catalog = readLeket('catalog_latest.json');
+  if (!parsed) return res.status(500).json({ error: 'No leket data' });
+
+  const orders = parsed.orders || [];
+  const items = parsed.item_summary || [];
+  const totalSpend = orders.reduce((sum, o) => {
+    return sum + (o.items || []).reduce((s, i) => {
+      const p = parseFloat((i.total || '').replace(/[^\d.]/g, '')) || 0;
+      return s + p;
+    }, 0);
+  }, 0);
+
+  const dates = orders.map(o => o.date).filter(Boolean).sort();
+  res.json({
+    totalOrders: orders.length,
+    uniqueItems: items.length,
+    dateRange: { from: dates[0] || null, to: dates[dates.length-1] || null },
+    catalogItems: catalog ? catalog.totalItems : null,
+    catalogScannedAt: catalog ? catalog.scannedAt : null,
+  });
+});
+
+app.get('/api/leket/top-items', (req, res) => {
+  const parsed = readLeket('parsed_orders.json');
+  if (!parsed) return res.status(500).json({ error: 'No leket data' });
+  res.json((parsed.item_summary || []).slice(0, 50));
+});
+
+app.get('/api/leket/seasonal', (req, res) => {
+  const parsed = readLeket('parsed_orders.json');
+  if (!parsed) return res.status(500).json({ error: 'No leket data' });
+
+  // Build month→items map
+  const monthMap = {}; // { 'YYYY-MM': { itemName: totalQty } }
+  for (const order of parsed.orders || []) {
+    if (!order.date) continue;
+    // date format: DD/MM/YY HH:MM
+    const parts = order.date.split('/');
+    if (parts.length < 2) continue;
+    const month = `20${parts[2].slice(0,2)}-${parts[1].padStart(2,'0')}`;
+    if (!monthMap[month]) monthMap[month] = {};
+    for (const item of order.items || []) {
+      monthMap[month][item.name] = (monthMap[month][item.name] || 0) + item.qty;
+    }
+  }
+
+  // Find items with seasonal pattern (appear in some months but not others)
+  const itemMonths = {}; // itemName → { month: qty }
+  for (const [month, items] of Object.entries(monthMap)) {
+    for (const [name, qty] of Object.entries(items)) {
+      if (!itemMonths[name]) itemMonths[name] = {};
+      itemMonths[name][month] = qty;
+    }
+  }
+
+  // Score seasonality: items that appear in < 60% of months but > 2 times
+  const allMonths = Object.keys(monthMap).sort();
+  const seasonal = [];
+  for (const [name, months] of Object.entries(itemMonths)) {
+    const count = Object.keys(months).length;
+    if (count < 2) continue;
+    const pct = count / allMonths.length;
+    if (pct < 0.7 && count >= 2) {
+      seasonal.push({ name, months, monthCount: count, pct: Math.round(pct * 100) });
+    }
+  }
+
+  seasonal.sort((a, b) => b.monthCount - a.monthCount);
+  res.json({ allMonths, seasonal: seasonal.slice(0, 40) });
+});
+
+app.get('/api/leket/monthly-spend', (req, res) => {
+  const parsed = readLeket('parsed_orders.json');
+  if (!parsed) return res.status(500).json({ error: 'No leket data' });
+
+  const monthly = {};
+  for (const order of parsed.orders || []) {
+    if (!order.date) continue;
+    const parts = order.date.split('/');
+    if (parts.length < 2) continue;
+    const month = `20${parts[2].slice(0,2)}-${parts[1].padStart(2,'0')}`;
+    const spend = (order.items || []).reduce((s, i) => {
+      return s + (parseFloat((i.total || '').replace(/[^\d.]/g, '')) || 0);
+    }, 0);
+    if (!monthly[month]) monthly[month] = { spend: 0, orders: 0 };
+    monthly[month].spend = +(monthly[month].spend + spend).toFixed(2);
+    monthly[month].orders++;
+  }
+  res.json(monthly);
+});
+
 // ── Homepage ─────────────────────────────────────────────────────────────────
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
@@ -91,7 +193,13 @@ app.get('/shufersal', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'shufersal.html'));
 });
 
+app.get('/leket', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'leket.html'));
+});
+
 // ── Start ─────────────────────────────────────────────────────────────────────
-app.listen(PORT, () => {
-  console.log(`\n🏠 Personal Portal running at http://localhost:${PORT}\n`);
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`\n🏠 Personal Portal running at:`);
+  console.log(`   Local:   http://localhost:${PORT}`);
+  console.log(`   Network: http://192.168.68.115:${PORT}\n`);
 });
