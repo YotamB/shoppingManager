@@ -99,27 +99,35 @@ def route(query):
     in_leket = len(leket_matches) > 0
     in_shufersal = len(shufersal_matches) > 0
     
-    # Prefer leket for fresh produce (catalog hit = strong signal)
+    # History hits (actually bought) — strongest signal
+    leket_history = [m for m in leket_matches if m.get('source') == 'history']
+    shufersal_history = [m for m in shufersal_matches if m.get('source') == 'history']
     catalog_hits = [m for m in leket_matches if m.get('source') == 'catalog' and m.get('available')]
-    
-    if catalog_hits and not in_shufersal:
+
+    leket_orders = max((m.get('num_orders', 0) for m in leket_history), default=0)
+    shufersal_orders = max((m.get('num_orders', 0) for m in shufersal_history), default=0)
+
+    if leket_orders > 0 and shufersal_orders == 0:
         store = 'leket'
-        reason = f'נמצא בקטלוג לקט ({catalog_hits[0]["name"]})'
-    elif catalog_hits and in_shufersal:
-        store = 'leket'
-        reason = f'נמצא בקטלוג לקט — מוצר טרי, עדיפות ללקט'
-    elif in_leket and not in_shufersal:
-        store = 'leket'
-        reason = f'נמצא בהיסטוריית לקט ({leket_matches[0]["name"]})'
-    elif in_shufersal and not in_leket:
+        reason = f'קנית מלקט {leket_orders} פעמים ({leket_history[0]["name"]})'
+    elif shufersal_orders > 0 and leket_orders == 0:
         store = 'shufersal'
-        reason = f'נמצא בהיסטוריית שופרסל ({shufersal_matches[0]["name"]})'
-    elif in_leket and in_shufersal:
-        store = 'both'
-        reason = f'נמצא בשניהם — לקט: {leket_matches[0]["name"]} | שופרסל: {shufersal_matches[0]["name"]}'
+        reason = f'קנית משופרסל {shufersal_orders} פעמים ({shufersal_history[0]["name"]})'
+    elif leket_orders > 0 and shufersal_orders > 0:
+        # Both have history — pick by order count
+        if leket_orders >= shufersal_orders:
+            store = 'leket'
+            reason = f'קנית מלקט {leket_orders} פעמים לעומת שופרסל {shufersal_orders}'
+        else:
+            store = 'shufersal'
+            reason = f'קנית משופרסל {shufersal_orders} פעמים לעומת לקט {leket_orders}'
+    elif catalog_hits:
+        # No history anywhere — catalog only as weak signal
+        store = 'leket'
+        reason = f'לא קנית בעבר — נמצא בקטלוג לקט ({catalog_hits[0]["name"]})'
     else:
         store = 'ask'
-        reason = 'לא נמצא בקטלוג לקט או בהיסטוריית שופרסל'
+        reason = 'לא נמצא בהיסטוריית לקט, שופרסל, או קטלוג לקט'
     
     return {
         'query': query,
