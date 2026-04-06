@@ -184,6 +184,73 @@ app.get('/api/leket/monthly-spend', (req, res) => {
   res.json(monthly);
 });
 
+// ── Shufersal items API (parsed) ────────────────────────────────────
+const SHUFERSAL_DATA = path.join(__dirname, '..', 'shufersal', 'data');
+
+function readShufersalParsed(filename) {
+  try {
+    return JSON.parse(fs.readFileSync(path.join(SHUFERSAL_DATA, filename), 'utf8'));
+  } catch(e) { return null; }
+}
+
+app.get('/api/shufersal/top-items', (req, res) => {
+  const parsed = readShufersalParsed('parsed_orders.json');
+  if (!parsed) return res.status(500).json({ error: 'No data' });
+  res.json((parsed.item_summary || []).slice(0, 50));
+});
+
+app.get('/api/shufersal/seasonal', (req, res) => {
+  const parsed = readShufersalParsed('parsed_orders.json');
+  if (!parsed) return res.status(500).json({ error: 'No data' });
+
+  const monthMap = {};
+  for (const order of parsed.orders || []) {
+    if (!order.date) continue;
+    const month = order.date.slice(0, 7).replace('/', '-'); // YYYY-MM
+    if (!monthMap[month]) monthMap[month] = {};
+    for (const item of order.items || []) {
+      monthMap[month][item.name] = (monthMap[month][item.name] || 0) + item.qty;
+    }
+  }
+
+  const allMonths = Object.keys(monthMap).sort();
+  const itemMonths = {};
+  for (const [month, items] of Object.entries(monthMap)) {
+    for (const [name, qty] of Object.entries(items)) {
+      if (!itemMonths[name]) itemMonths[name] = {};
+      itemMonths[name][month] = qty;
+    }
+  }
+
+  const seasonal = [];
+  for (const [name, months] of Object.entries(itemMonths)) {
+    const count = Object.keys(months).length;
+    if (count < 2 || count >= allMonths.length) continue;
+    const pct = count / allMonths.length;
+    if (pct < 0.75) {
+      seasonal.push({ name, months, monthCount: count, pct: Math.round(pct * 100) });
+    }
+  }
+  seasonal.sort((a, b) => b.monthCount - a.monthCount);
+  res.json({ allMonths, seasonal: seasonal.slice(0, 40) });
+});
+
+app.get('/api/shufersal/monthly-spend', (req, res) => {
+  const parsed = readShufersalParsed('parsed_orders.json');
+  if (!parsed) return res.status(500).json({ error: 'No data' });
+
+  const monthly = {};
+  for (const order of parsed.orders || []) {
+    if (!order.date) continue;
+    const month = order.date.slice(0, 7);
+    const spend = parseFloat((order.total || '').replace(/[^\d.]/g, '')) || 0;
+    if (!monthly[month]) monthly[month] = { spend: 0, orders: 0 };
+    monthly[month].spend = +(monthly[month].spend + spend).toFixed(2);
+    monthly[month].orders++;
+  }
+  res.json(monthly);
+});
+
 // ── Homepage ─────────────────────────────────────────────────────────────────
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));

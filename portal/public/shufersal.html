@@ -12,7 +12,8 @@
       <span class="nav-brand">🏠 Portal</span>
       <div class="nav-links">
         <a href="/">Home</a>
-        <a href="/shufersal" class="active">🛒 Shufersal</a>
+        <a href="/shufersal" class="active">🛒 שופרסל</a>
+        <a href="/leket">🥬 לקט השדה</a>
       </div>
     </div>
   </nav>
@@ -126,6 +127,70 @@
 
   </div><!-- /container -->
 
+    <!-- Seasonal analysis -->
+    <div class="section card">
+      <div class="section-title">🌱 ניתוח עונתי</div>
+      <p style="color:var(--muted);font-size:0.9rem;margin-bottom:1rem;">מוצרים שמופיעים רק בחלק מהשנה</p>
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">הכל</button>
+        <button class="filter-btn" data-filter="rare">⚡ נדיר (עד 4 חודשים)</button>
+      </div>
+      <div class="seasonal-grid" id="seasonal-grid">
+        <div class="loading">טוען ניתוח עונתי…</div>
+      </div>
+    </div>
+
+  </div><!-- /container -->
+
+  <style>
+    .seasonal-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:1rem; margin-top:1rem; }
+    .seasonal-card { background:var(--card-bg,#1e1e2e); border:1px solid var(--border,#333); border-radius:10px; padding:1rem; }
+    .seasonal-card h4 { margin:0 0 0.4rem; font-size:0.9rem; color:var(--accent,#7c8cf8); }
+    .month-bars { display:flex; gap:3px; align-items:flex-end; height:36px; margin-top:0.4rem; }
+    .month-bar { flex:1; background:var(--accent,#7c8cf8); border-radius:2px 2px 0 0; opacity:0.25; min-height:4px; }
+    .month-bar.active { opacity:1; }
+    .month-labels { display:flex; gap:3px; font-size:0.55rem; color:var(--muted,#888); margin-top:2px; }
+    .month-labels span { flex:1; text-align:center; }
+    .seasonal-pct { font-size:0.72rem; color:var(--muted,#888); margin-top:0.2rem; }
+    .filter-bar { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem; }
+    .filter-btn { padding:0.3rem 0.8rem; border-radius:20px; border:1px solid var(--border,#333); background:transparent; color:var(--text,#eee); cursor:pointer; font-size:0.85rem; }
+    .filter-btn.active { background:var(--accent,#7c8cf8); border-color:var(--accent,#7c8cf8); color:#fff; }
+  </style>
+
   <script src="/js/shufersal.js"></script>
+  <script>
+  const MONTH_NAMES = ['ינו','פבר','מרץ','אפר','מאי','יוני','יולי','אוג','ספט','אוק','נוב','דצמ'];
+  let seasonalData = null;
+
+  fetch('/api/shufersal/seasonal').then(r=>r.json()).then(data => {
+    seasonalData = data;
+    renderSeasonal('all');
+  });
+
+  function renderSeasonal(filter) {
+    const { allMonths, seasonal } = seasonalData;
+    const grid = document.getElementById('seasonal-grid');
+    let filtered = filter === 'rare' ? seasonal.filter(s => s.monthCount <= 4) : seasonal;
+    if (!filtered.length) { grid.innerHTML = '<div style="color:var(--muted)">אין תוצאות</div>'; return; }
+    grid.innerHTML = filtered.map(item => {
+      const bars = allMonths.map(m => {
+        const qty = item.months[m] || 0;
+        const maxQty = Math.max(...Object.values(item.months));
+        const h = qty ? Math.max(5, Math.round((qty/maxQty)*32)) : 4;
+        return `<div class="month-bar ${qty>0?'active':''}" style="height:${h}px" title="${m}: ${qty?qty.toFixed(1)+" יח'":'לא הוזמן'}"></div>`;
+      }).join('');
+      const labels = allMonths.map(m => `<span>${MONTH_NAMES[parseInt(m.slice(5,7))-1]}</span>`).join('');
+      return `<div class="seasonal-card"><h4>${item.name}</h4><div class="seasonal-pct">${item.monthCount} חודשים מתוך ${allMonths.length} (${item.pct}%)</div><div class="month-bars">${bars}</div><div class="month-labels">${labels}</div></div>`;
+    }).join('');
+  }
+
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+      btn.classList.add('active');
+      if (seasonalData) renderSeasonal(btn.dataset.filter);
+    });
+  });
+  </script>
 </body>
 </html>
