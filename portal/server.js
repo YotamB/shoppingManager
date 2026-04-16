@@ -312,5 +312,5 @@ app.get('/leket', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`\n🏠 Personal Portal running at:`);
   console.log(`   Local:   http://localhost:${PORT}`);
-  console.log(`   Network: http://192.168.68.115:${PORT}\n`);
+  console.log(`   Network: http://192.168.68.118:${PORT}\n`);
 });

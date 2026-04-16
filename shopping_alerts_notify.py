@@ -48,7 +48,7 @@ def run():
             days_left = round(-i['overdue_days'])
             lines.append(f"  {emoji} {i['name']} — עוד ~{days_left} ימים")
 
-    lines.append(f"\nרשימת קניות: http://192.168.68.115:3100/list")
+    lines.append(f"\nרשימת קניות: http://192.168.68.118:3100/list")
     print('\n'.join(lines))
 
 if __name__ == '__main__':
